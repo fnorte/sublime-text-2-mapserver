@@ -12,13 +12,13 @@
 	<array>
 		<dict>
 			<key>match</key>
-			<string>\b(MAP|WEB|END|METADATA|LEGEND|LABEL|SYMBOL|STYLE|POINTS|LAYER|CLASS|PROJECTION)\b</string>
+			<string>\b(MAP|WEB|END|METADATA|LEGEND|LABEL|SYMBOL|STYLE|POINTS|LAYER|CLASS|PROJECTION|OUTPUTFORMAT|PATTERN)\b</string>
 			<key>name</key>
 			<string>entity.name.function.mapserver</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(STATUS|LOG|NAME|SHAPEPATH|EXTENT|UNITS|IMAGETYPE|FONTSET|CONFIG|LOG|IMAGEURL|TRANSPARENT|TYPE|FONT|SIZE|LINEJOINMAXSIZE|LINEJOIN|FILLED|CHARACTER|ANTIALIAS|PROCESSING|DATA|DUMP|TEMPLATE|OPACITY|COLOR|OUTLINECOLOR|POSITION|ANGLE|LABELITEM|LABELMAXSCALE|BACKGROUNDCOLOR|FILTER|OFFSET|PRIORITY|MINSIZE|WIDTH|EXPRESSION|TEXT|BUFFER|FORCE|PARTIALS|DEBUG)\b</string>
+			<string>\b(STATUS|LOG|NAME|SHAPEPATH|EXTENT|UNITS|IMAGETYPE|FONTSET|CONFIG|LOG|IMAGEURL|TRANSPARENT|TYPE|FONT|SIZE|LINEJOINMAXSIZE|LINEJOIN|FILLED|CHARACTER|ANTIALIAS|PROCESSING|DATA|DUMP|TEMPLATE|OPACITY|COLOR|OUTLINECOLOR|POSITION|ANGLE|LABELITEM|LABELMAXSCALE|BACKGROUNDCOLOR|FILTER|OFFSET|PRIORITY|MINSIZE|WIDTH|EXPRESSION|TEXT|BUFFER|FORCE|PARTIALS|DEBUG|SYMBOLSET|INCLUDE|DRIVER|MIMETYPE|IMAGEMODE|EXTENSION|FORMATOPTION|IMAGEPATH|MAXSCALEDENOM|MINSCALEDENOM|LINECAP|IMAGE|CLASSITEM)\b</string>
 			<key>name</key>
 			<string>keyword.source.syntax_name</string>
 		</dict>
@@ -37,7 +37,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(wms_title|wms_onlineresource|wms_srs|wms_extent|wfs_title|wfs_onlineresource|wfs_srs|gml_featureid|gml_include_items)</string>
+			<string>(wms_title|wms_onlineresource|wms_srs|wms_extent|wfs_title|wfs_onlineresource|wfs_srs|gml_featureid|gml_include_items|wms_feature_info_mime_type|wms_include_items|wms_enable_request|ows_sld_enabled|wms_sld_enabled)</string>
 			<key>name</key>
 			<string>support.function.mapserver</string>
 		</dict>
@@ -56,7 +56,7 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>(wms_title|wms_onlineresource|wms_srs|wms_extent|wfs_title|wfs_onlineresource|wfs_srs)</string>
+					<string>(wms_title|wms_onlineresource|wms_srs|wms_extent|wfs_title|wfs_onlineresource|wfs_srs|gml_featureid|gml_include_items|wms_feature_info_mime_type|wms_include_items|wms_enable_request|ows_sld_enabled|wms_sld_enabled)</string>
 					<key>name</key>
 					<string>support.function.mapserver</string>
 				</dict>
